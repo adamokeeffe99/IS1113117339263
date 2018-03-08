@@ -14,16 +14,26 @@ session_start();
         <h4>Please enter your payment details</h4>
         
         
+        
             <form action="Ebus3.php" method="POST">
-
+                          <label for="user_name" class="lbl_name">
+                Name
+                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
+            </label>
+            <br>
+            <label for="user_email" class="lbl_email">
+                Email address
+                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
+            </label>
+            <br>
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
             </form>
-            
             <br/>
+                    
+
+            
             <button onClick="validateDetails()">Validate</button>
             
         </div>

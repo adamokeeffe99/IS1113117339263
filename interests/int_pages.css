@@ -1,13 +1,19 @@
 #section1{
-   background-color: rgb(238, 0, 90);
+   background-image: url("http://www.hdnicewallpapers.com/Walls/Big/Countries%20and%20City/Beautiful_Sydney_City_of_Australia_Wallpaper.jpg");
+   background-repeat: no-repeat;
+   width:100%;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("http://www.nicecarvings.com/images/albums/newyork/Letters-nyc-sign-lettering-new-york-city-001.jpg");
+    background-repeat: no-repeat;
+    width:100;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url("https://wallpaperscraft.com/image/tokyo_bridge_night_buildings_skyscrapers_59573_1920x1080.jpg");
+    background-repeat: no-repeat;
+    width:100%;
 }
 
 .section{
