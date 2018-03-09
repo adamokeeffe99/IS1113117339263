@@ -16,8 +16,8 @@ function calcSub(){
         argSubTotal = 200;
     }
     
-    if(document.GetElementById("aws").checked){
-    else{
+    else if(document.GetElementById("aws").checked){
+    
         argSubTotal = 300;
     }
 
